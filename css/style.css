@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("/fonts/Montserrat/Montserrat-Light.ttf"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  src: url("/fonts/Montserrat/Montserrat-Regular.ttf"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  src: url("/fonts/Montserrat/Montserrat-Medium.ttf"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  src: url("/fonts/Montserrat/Montserrat-SemiBold.ttf"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  src: url("/fonts/Montserrat/Montserrat-Bold.ttf"); }
+
+body {
+  min-width: 320px;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  background: #202020; }
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px; }
+
+.header__logo {
+  text-transform: uppercase;
+  padding-left: 25px;
+  font-size: 24px; }
+
+.header__nav-bar {
+  display: none; }
+
+.header__wrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.header__block {
+  width: 100%; }
+
+.header__text {
+  padding-left: 25px;
+  padding-right: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 500;
+  font-size: 24px; }
+
+.header__info {
+  padding-left: 25px;
+  padding-right: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 13px;
+  opacity: 0.4;
+  line-height: 24px; }
+
+.header__social {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FFC077;
+  font-size: 16px;
+  font-weight: 300; }
+
+.social__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-left: 25px; }
+
+.social__item {
+  width: 100px;
+  margin-bottom: 20px;
+  margin-right: 40px; }
+
+.social__link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4; }
+
+.main-page {
+  margin-top: 100px; }
+
+.main-page__tittle {
+  padding-left: 25px;
+  padding-right: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 500;
+  font-size: 24px; }
+
+.main-page__info {
+  padding-left: 25px;
+  padding-right: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  opacity: 0.4; }
+
+.main-page__video-prev {
+  margin-top: 60px;
+  padding-left: 25px;
+  padding-right: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.video__img {
+  width: 100%; }
+
+.video__title {
+  margin: 0;
+  line-height: 40px;
+  font-weight: 300; }
+
+.main-page__button {
+  background: #262627;
+  border: none;
+  height: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 50px;
+  width: 85%;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat"; }
+
+.main-page__music {
+  margin-top: 100px; }
+
+.main-page__music-prev {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #262627; }
+
+.music__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.music__img {
+  background: #C4C4C4;
+  width: 95px;
+  height: 95px;
+  margin: 8px; }
+
+.music__info {
+  font-size: 10px;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 16px; }
+
+.music__title {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 5px; }
+
+.music__item span {
+  font-size: 10px;
+  font-weight: 300;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.4); }
+
+.main-page__uslugi-prev {
+  margin-left: 25px;
+  margin-right: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #262627;
+  text-align: center; }
+
+.uslugi__img {
+  margin-top: 40px; }
+
+.uslugi__title {
+  font-size: 16px;
+  font-weight: 300; }
+
+.uslugi__info {
+  font-size: 10px;
+  font-weight: 300;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 40px;
+  opacity: 0.4; }
+
+.footer__page {
+  margin-top: 40px;
+  text-align: center; }
+
+.footer__title {
+  margin-left: 35px;
+  margin-right: 35px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/*# sourceMappingURL=style.css.map */
